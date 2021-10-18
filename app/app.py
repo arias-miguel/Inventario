@@ -14,5 +14,9 @@ def login ():
 def usuarios():
     return render_template('usuarios/usuarios.html')
 
+@app.route('/editProductos')
+def editProductos():
+    return render_template('productos/editProductos.html')
+
 if __name__ == '__main__':
     app.run(debug = True, port = 8000)
