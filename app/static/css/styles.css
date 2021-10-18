@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+
+*{
+    margin: 0px;
+}
+
+.encabezado{
+    background-color:#343EDC;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+.title{
+    font-size: 3rem;
+    color: white;
+}
+.btnsuperiores a{
+    justify-content: space-between;
+    color: white;
+    left: 3%;
+}
+.titlelogin{
+     background-color:#343EDC;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+
+}
+
+.login{
+    background-color: white;
+    width: 15rem;
+}
+
+.auto {
+    display: block;
+    width: 100%;
+}
