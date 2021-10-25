@@ -1,35 +1,39 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
 
 *{
     margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: 'Rubik', sans-serif;
 }
 
-.encabezado{
+header {
     background-color:#343EDC;
     color: white;
-    font-family: 'Roboto Slab', serif;
 }
+
+ion-icon {
+     color: white;
+     font-size: 2rem;
+ }
+
 .title{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: white;
+    font-weight: 700;
 }
+
 .btnsuperiores a{
     justify-content: space-between;
     color: white;
     left: 3%;
 }
-.titlelogin{
-     background-color:#343EDC;
-    color: white;
-    font-family: 'Roboto Slab', serif;
-    font-size: 2rem;
 
-}
 
-.login{
-    background-color: white;
-    width: 15rem;
+a {
+    text-decoration: none;
 }
 
 .auto {
@@ -39,3 +43,39 @@
 table {
     margin: 5%;
 }
+.dashboard-wrapper {
+	margin: auto;
+	max-width: 920px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+	grid-row-gap: 10px;
+	}
+
+
+.dashboard-wrapper .panel {
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #d3d3d3;
+	box-shadow: 0 0 4px 1px rgba(143,143,143,.2);
+	padding: 15px;
+	}
+
+
+.dashboard-wrapper #p1.panel {
+	grid-column: 1 / 2;
+	}
+
+    .bottom {
+        font-size: 10px;
+        margin-top: 15px;
+        }
+    
+    .bottom a {
+        color: #333;
+        text-decoration: none;
+        }
+    
+    .error {
+        color: red;
+    }
